@@ -95,7 +95,7 @@
       toSel.appendChild(opt);
     });
     // default to last level
-    toSel.value = levels[levels.length-1];
+    toSel.value = levels[0];
     row2.appendChild(toSel);
     card.appendChild(row2);
 
