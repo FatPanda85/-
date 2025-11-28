@@ -1,0 +1,88 @@
+
+:root {
+  --bg: #0b0e14;
+  --card: #111520;
+  --muted: #99a3b3;
+  --text: #e8edf4;
+  --accent: #3aa0ff;
+  --good: #39d98a;
+  --bad: #ff5c77;
+  --border: #1b2233;
+}
+
+* { box-sizing: border-box; }
+html, body { margin:0; padding:0; background:var(--bg); color:var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
+.container { max-width: 1100px; margin: 0 auto; padding: 16px; }
+
+h1 { font-size: 22px; text-align: center; margin: 8px 0 16px; color: var(--text); }
+.subtitle { text-align:center; color: var(--muted); margin-bottom: 16px; }
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+@media (min-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 14px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+}
+
+.card h2 {
+  font-size: 16px;
+  margin: 4px 0 10px;
+  color: var(--text);
+}
+
+.row { display:flex; gap:8px; align-items:center; margin: 8px 0; }
+.row label { width: 84px; color: var(--muted); font-size: 13px; }
+select, input[type="number"] {
+  flex: 1;
+  padding: 10px 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: #0f1422;
+  color: var(--text);
+  outline: none;
+}
+select:focus, input[type="number"]:focus { border-color: var(--accent); }
+
+.note { font-size: 12px; color: var(--muted); }
+
+.totals {
+  display:grid; gap:12px;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 700px){
+  .totals { grid-template-columns: repeat(2, 1fr); }
+}
+.material-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 12px;
+}
+.material-card h3 { margin: 0 0 8px; font-size: 15px; }
+.amounts { display:flex; gap:10px; flex-wrap:wrap; }
+.amounts div {
+  background:#0f1422;
+  border:1px solid var(--border);
+  border-radius:10px;
+  padding:8px 10px; font-size:14px;
+  min-width: 120px;
+}
+
+.badge-ok { color: var(--good); }
+.badge-miss { color: var(--bad); }
+
+footer { text-align:center; color:var(--muted); font-size:12px; margin-top:16px; }
+hr.sep { border: none; border-top: 1px dashed var(--border); margin: 8px 0 16px; }

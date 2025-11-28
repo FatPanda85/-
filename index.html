@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>六裝備材料需求試算器</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>六裝備材料需求試算器</h1>
+    <div class="subtitle">同一套升級表、六件裝備同時計算。左側設定每件裝備的「目前等級」與「升到等級」，右側輸入你目前擁有的材料，系統即時計算總需求與不足。</div>
+
+    <div class="grid">
+      <section class="card">
+        <h2>裝備設定</h2>
+        <div id="equip-wrap"></div>
+      </section>
+
+      <section class="card">
+        <h2>我擁有的材料</h2>
+        <div id="owned-wrap"></div>
+        <hr class="sep"/>
+        <div class="note">提示：若不打算升某件裝備，將「升到等級」調整成和「目前等級」相同即可。</div>
+      </section>
+    </div>
+
+    <h2 style="margin-top:16px;">材料總計 & 缺口</h2>
+    <section class="totals" id="totals-wrap"></section>
+
+    <footer>Made for you • 支援 GitHub Pages • 手機友善</footer>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
