@@ -48,14 +48,10 @@ const UPGRADE_DATA = {
     "神話T3-3星-3/LegendaryT3(3-Star)-3",
     "神話T3-3星-4/LegendaryT3(3-Star)-4",
     "神話T4/LegensaryT4",
-    "-神話T4-1/-LegensaryT4-1",
     "神話T4-1/LegensaryT4-1",
-    "-神話T4-2/-LegensaryT4-2",
     "神話T4-2/LegensaryT4-2",
     "神話T4-3/LegensaryT4-3",
-    "-神話T4-4/-LegensaryT4-4",
     "神話T4-4/LegensaryT4-4",
-    "-神話T4-1星/-LegensaryT4(1-Star)",
     "神話T4-1星/LegensaryT4(1-Star)",
     "神話T4-1星-1/LegensaryT4(1-Star)-1",
     "神話T4-1星-2/LegensaryT4(1-Star)-2",
@@ -547,7 +543,7 @@ const UPGRADE_DATA = {
     },
     {
       "from": "神話T4/LegensaryT4",
-      "to": "-神話T4-1/-LegensaryT4-1",
+      "to": "神話T4-1/LegensaryT4-1",
       "costs": {
         "強韌合金/Hardened Alloy": 28000,
         "拋光液/Polishing Solution": 330,
@@ -557,7 +553,7 @@ const UPGRADE_DATA = {
     },
     {
       "from": "神話T4-1/-LegensaryT4-1",
-      "to": "-神話T4-2/-LegensaryT4-2",
+      "to": "神話T4-2/LegensaryT4-2",
       "costs": {
         "強韌合金/Hardened Alloy": 28000,
         "拋光液/Polishing Solution": 330,
@@ -577,7 +573,7 @@ const UPGRADE_DATA = {
     },
     {
       "from": "神話T4-3/LegensaryT4-3",
-      "to": "-神話T4-4/-LegensaryT4-4",
+      "to": "神話T4-4/LegensaryT4-4",
       "costs": {
         "強韌合金/Hardened Alloy": 28000,
         "拋光液/Polishing Solution": 330,
@@ -587,7 +583,7 @@ const UPGRADE_DATA = {
     },
     {
       "from": "神話T4-4/LegensaryT4-4",
-      "to": "-神話T4-1星/-LegensaryT4(1-Star)",
+      "to": "神話T4-1星/LegensaryT4(1-Star)",
       "costs": {
         "強韌合金/Hardened Alloy": 28000,
         "拋光液/Polishing Solution": 330,
@@ -617,7 +613,7 @@ const UPGRADE_DATA = {
     },
     {
       "from": "神話T4-1星-2/LegensaryT4(1-Star)-2",
-      "to": "神話T4-1星-2/LegensaryT4(1-Star)-3",
+      "to": "神話T4-1星-3/LegensaryT4(1-Star)-3",
       "costs": {
         "強韌合金/Hardened Alloy": 32000,
         "拋光液/Polishing Solution": 360,
@@ -626,7 +622,7 @@ const UPGRADE_DATA = {
       }
     },
     {
-      "from": "神話T4-1星-2/LegensaryT4(1-Star)-3",
+      "from": "神話T4-1星-3/LegensaryT4(1-Star)-3",
       "to": "神話T4-1星-4/LegensaryT4(1-Star)-4",
       "costs": {
         "強韌合金/Hardened Alloy": 32000,
