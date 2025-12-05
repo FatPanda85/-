@@ -2,12 +2,12 @@
 /* global UPGRADE_DATA */
 (function(){
   const EQUIPS = [
-    {key:'hat', name:'帽子(茅)'},
-    {key:'needle', name:'指針(茅)'},
-    {key:'armor', name:'衣服(盾)'},
-    {key:'pants', name:'褲子(盾)'},
-    {key:'ring', name:'戒指(弓)'},
-    {key:'staff', name:'手杖(弓)'},
+    {key:'hat', name:'帽子(茅)/Gale’S Helm'},
+    {key:'needle', name:'指針(茅)/Astrel Pointer'},
+    {key:'armor', name:'衣服(盾)/Valor’s Embrace'},
+    {key:'pants', name:'褲子(盾)/Frost Pacer'},
+    {key:'ring', name:'戒指(弓)/Frosty Blessing'},
+    {key:'staff', name:'手杖(弓)/Key of Wisdom'},
   ];
 
   const levels = UPGRADE_DATA.levels;
